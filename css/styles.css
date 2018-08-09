@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  position: relative;
+
+}
+
+
+.text-white {
+  color: red;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Bungee', cursive;
+
+}
+
+/* navbar section */
+.navbar-default {
+  background: #000000;
+}
+
+.navbar-default .navbar-brand {
+  color: red;
+  font-family: 'Bungee', cursive;
+
+}
+
+.navbar {
+  border: 0;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+  color: #ffffff;
+  background-color: transparent;
+}
+
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 24px;
+
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.btn-primary {
+  color: red;
+  background-color: black;
+  border-color: black;
+}
+
+.home-section {
+  background-image: url('../img/SOA_TABLE.JPG');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* menu-section */
+.members-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tab-pane {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+
+/* reservation section */
+.signup-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #eeeeee;
+}
+/* Small Screens */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Screens */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Screens */
+@media only screen and (min-width : 1200px) {
+}
